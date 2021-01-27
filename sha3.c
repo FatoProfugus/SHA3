@@ -132,18 +132,6 @@ sha3_Init(void *priv, unsigned bitSize) {
 }
 
 void
-sha3_Init256(void *priv)
-{
-    sha3_Init(priv, 256);
-}
-
-void
-sha3_Init384(void *priv)
-{
-    sha3_Init(priv, 384);
-}
-
-void
 sha3_Init512(void *priv)
 {
     sha3_Init(priv, 512);
